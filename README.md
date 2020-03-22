@@ -43,7 +43,7 @@ You can also copy files from outside your project folder into your site. This al
 
 ## Development
 
-After checking out the repo, run `script/bootstrap` to install dependencies. Then, run `rake spec` to run the tests.
+After checking out the repo, run `script/bootstrap` to install dependencies. Then, run `bundle exec rake spec` to run the tests.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `lib/jekyll-copyr/version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
