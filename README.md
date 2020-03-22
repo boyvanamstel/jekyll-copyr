@@ -16,7 +16,7 @@ group :jekyll_plugins do
 end
 ```
 
-And then add this line to your application's `_config.yml`:
+Then add these lines to your application's `_config.yml`:
 
 ```yml
 # _config.yml
