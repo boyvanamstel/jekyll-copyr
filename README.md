@@ -11,7 +11,7 @@ Add this line to your application's Gemfile:
 ```ruby
 # Gemfile
 
-gem 'jekyll-copyr'
+gem "jekyll-copyr"
 ```
 
 And then add this line to your application's `_config.yml`:
