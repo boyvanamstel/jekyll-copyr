@@ -6,7 +6,7 @@ A Jekyll plugin that taps into `FileUtils.cp_r` from your `_config.yml`. Easily 
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's `Gemfile`:
 
 ```ruby
 # Gemfile
