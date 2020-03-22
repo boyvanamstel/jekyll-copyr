@@ -6,12 +6,14 @@ A Jekyll plugin that taps into `FileUtils.cp_r` from your `_config.yml`. Easily 
 
 ## Installation
 
-Add this line to your application's `Gemfile`:
+Add `gem "jekyll-copyr"` to the `:jekyll_plugins` group in your `Gemfile`:
 
 ```ruby
 # Gemfile
 
-gem "jekyll-copyr"
+group :jekyll_plugins do
+  gem "jekyll-copyr"
+end
 ```
 
 And then add this line to your application's `_config.yml`:
