@@ -6,8 +6,8 @@ module Jekyll
       attr_accessor :from, :to
 
       def initialize(task_hash = {})
-        @from = File.expand_path task_hash.fetch "from", nil
-        @to = File.expand_path task_hash.fetch "to", nil
+        @from = task_hash.fetch "from", nil
+        @to = task_hash.fetch "to", nil
       end
     end
   end
